@@ -1,0 +1,390 @@
+Voltaje: 23
+Nota n°: 3
+Nota n°: 8
+Voltaje: 1
+Nota n°: 7
+Voltaje: 11
+Nota n°: 6
+Voltaje: 38
+Nota n°: 2
+Voltaje: 16
+Nota n°: 6
+Voltaje: 9
+Nota n°: 3
+Voltaje: 33
+Nota n°: 3
+Voltaje: 56
+Nota n°: 8
+Voltaje: 4
+Nota n°: 3
+Voltaje: 42
+Nota n°: 2
+Voltaje: 37
+Nota n°: 4
+Voltaje: 24
+Nota n°: 5
+Voltaje: 52
+Nota n°: 4
+Voltaje: 59
+Nota n°: 3
+Voltaje: 7
+Nota n°: 2
+Voltaje: 3
+Nota n°: 3
+Voltaje: 51
+Nota n°: 1
+Voltaje: 6
+Nota n°: 7
+Voltaje: 17
+Nota n°: 3
+Voltaje: 13
+Nota n°: 8
+Voltaje: 15
+Nota n°: 6
+Voltaje: 54
+Nota n°: 1
+Voltaje: 37
+Nota n°: 6
+Voltaje: 54
+Nota n°: 6
+Voltaje: 54
+Nota n°: 3
+Voltaje: 54
+Nota n°: 3
+Voltaje: 24
+Nota n°: 8
+Voltaje: 2
+Nota n°: 1
+Voltaje: 33
+Nota n°: 7
+Voltaje: 36
+Nota n°: 6
+Voltaje: 49
+Nota n°: 4
+Voltaje: 17
+Nota n°: 6
+Voltaje: 37
+Nota n°: 5
+Voltaje: 17
+Nota n°: 7
+Voltaje: 17
+Voltaje: 28
+Nota n°: 7
+Nota n°: 4
+Voltaje: 43
+Nota n°: 8
+Voltaje: 18
+Nota n°: 7
+Voltaje: 45
+Nota n°: 7
+Voltaje: 49
+Nota n°: 6
+Voltaje: 51
+Nota n°: 4
+Voltaje: 55
+Nota n°: 7
+Voltaje: 18
+Nota n°: 5
+Voltaje: 19
+Nota n°: 2
+Voltaje: 16
+Nota n°: 8
+Voltaje: 43
+Nota n°: 6
+Voltaje: 2
+Nota n°: 7
+Voltaje: 33
+Nota n°: 3
+Voltaje: 17
+Nota n°: 2
+Voltaje: 36
+Nota n°: 2
+Voltaje: 38
+Nota n°: 5
+Voltaje: 43
+Nota n°: 3
+Voltaje: 23
+Nota n°: 4
+Voltaje: 50
+Nota n°: 8
+Voltaje: 39
+Nota n°: 2
+Voltaje: 7
+Nota n°: 1
+Voltaje: 41
+Nota n°: 6
+Voltaje: 50
+Nota n°: 4
+Voltaje: 41
+Nota n°: 8
+Voltaje: 13
+Nota n°: 6
+Voltaje: 31
+Nota n°: 2
+Voltaje: 38
+Nota n°: 6
+Voltaje: 47
+Nota n°: 2
+Voltaje: 16
+Nota n°: 4
+Voltaje: 22
+Nota n°: 4
+Voltaje: 29
+Nota n°: 8
+Voltaje: 47
+Nota n°: 6
+Voltaje: 20
+Nota n°: 2
+Voltaje: 8
+Nota n°: 4
+Voltaje: 18
+Nota n°: 1
+Voltaje: 41
+Nota n°: 6
+Voltaje: 56
+Nota n°: 2
+Voltaje: 33
+Nota n°: 5
+Voltaje: 19
+Nota n°: 8
+Voltaje: 3
+Nota n°: 3
+Voltaje: 17
+Nota n°: 7
+Voltaje: 28
+Nota n°: 3
+Voltaje: 12
+Nota n°: 7
+Voltaje: 2
+Nota n°: 8
+Voltaje: 9
+Nota n°: 6
+Voltaje: 19
+Nota n°: 2
+Voltaje: 25
+Nota n°: 1
+Voltaje: 49
+Nota n°: 8
+Voltaje: 31
+Nota n°: 5
+Voltaje: 24
+Nota n°: 7
+Voltaje: 26
+Nota n°: 3
+Voltaje: 53
+Nota n°: 1
+Voltaje: 41
+Nota n°: 2
+Voltaje: 40
+Nota n°: 6
+Voltaje: 49
+Nota n°: 8
+Voltaje: 29
+Nota n°: 7
+Voltaje: 5
+Nota n°: 2
+Voltaje: 58
+Nota n°: 2
+Voltaje: 4
+Nota n°: 2
+Voltaje: 51
+Nota n°: 6
+Voltaje: 44
+Nota n°: 7
+Voltaje: 5
+Nota n°: 8
+Voltaje: 46
+Nota n°: 6
+Voltaje: 44
+Nota n°: 8
+Voltaje: 30
+Nota n°: 7
+Voltaje: 28
+Nota n°: 7
+Voltaje: 35
+Nota n°: 7
+Voltaje: 3
+Nota n°: 7
+Voltaje: 50
+Nota n°: 3
+Voltaje: 17
+Nota n°: 5
+Voltaje: 36
+Nota n°: 7
+Voltaje: 42
+Nota n°: 2
+Voltaje: 32
+Nota n°: 3
+Voltaje: 15
+Nota n°: 1
+Voltaje: 50
+Nota n°: 7
+Voltaje: 60
+Nota n°: 3
+Voltaje: 8
+Nota n°: 4
+Voltaje: 48
+Nota n°: 1
+Voltaje: 4
+Nota n°: 6
+Voltaje: 2
+Nota n°: 5
+Voltaje: 27
+Nota n°: 4
+Voltaje: 44
+Nota n°: 6
+Voltaje: 56
+Nota n°: 1
+Voltaje: 25
+Nota n°: 3
+Voltaje: 1
+Nota n°: 2
+Voltaje: 22
+Nota n°: 1
+Voltaje: 19
+Nota n°: 7
+Voltaje: 15
+Nota n°: 5
+Voltaje: 29
+Nota n°: 4
+Voltaje: 3
+Nota n°: 7
+Voltaje: 40
+Nota n°: 1
+Voltaje: 59
+Nota n°: 4
+Voltaje: 56
+Nota n°: 6
+Voltaje: 25
+Nota n°: 5
+Voltaje: 34
+Nota n°: 1
+Voltaje: 2
+Nota n°: 3
+Voltaje: 53
+Nota n°: 8
+Voltaje: 19
+Nota n°: 1
+Voltaje: 33
+Nota n°: 1
+Voltaje: 52
+Nota n°: 5
+Voltaje: 48
+Nota n°: 5
+Voltaje: 6
+Nota n°: 8
+Voltaje: 46
+Nota n°: 5
+Voltaje: 29
+Nota n°: 3
+Voltaje: 33
+Nota n°: 5
+Voltaje: 44
+Nota n°: 2
+Voltaje: 54
+Nota n°: 4
+Voltaje: 14
+Nota n°: 5
+Voltaje: 30
+Nota n°: 4
+Voltaje: 5
+Nota n°: 6
+Voltaje: 13
+Nota n°: 6
+Voltaje: 39
+Nota n°: 8
+Voltaje: 1
+Nota n°: 6
+Voltaje: 4
+Nota n°: 8
+Voltaje: 21
+Nota n°: 1
+Voltaje: 3
+Nota n°: 1
+Voltaje: 41
+Nota n°: 3
+Voltaje: 48
+Nota n°: 5
+Voltaje: 19
+Nota n°: 7
+Voltaje: 58
+Nota n°: 2
+Voltaje: 45
+Nota n°: 7
+Voltaje: 10
+Nota n°: 6
+Voltaje: 7
+Nota n°: 2
+Voltaje: 25
+Voltaje: 20
+Nota n°: 3
+Voltaje: 30
+Nota n°: 4
+Nota n°: 3
+Voltaje: 14
+Nota n°: 4
+Voltaje: 19
+Voltaje: 32
+Nota n°: 3
+Voltaje: 36
+Nota n°: 3
+Nota n°: 3
+Voltaje: 25
+Nota n°: 3
+Voltaje: 56
+Voltaje: 6
+Nota n°: 1
+Voltaje: 35
+Nota n°: 8
+Voltaje: 10
+Nota n°: 1
+Voltaje: 47
+Nota n°: 2
+Voltaje: 35
+Nota n°: 5
+Voltaje: 36
+Nota n°: 3
+Voltaje: 12
+Nota n°: 1
+Voltaje: 4
+Nota n°: 8
+Voltaje: 53
+Nota n°: 7
+Voltaje: 47
+Nota n°: 6
+Voltaje: 52
+Nota n°: 8
+Voltaje: 4
+Nota n°: 5
+Voltaje: 51
+Nota n°: 3
+Voltaje: 6
+Nota n°: 1
+Voltaje: 47
+Nota n°: 5
+Voltaje: 56
+Nota n°: 2
+Nota n°: 4
+Voltaje: 21
+Voltaje: 48
+Nota n°: 4
+Voltaje: 31
+Nota n°: 7
+Nota n°: 6
+Voltaje: 10
+Nota n°: 4
+Voltaje: 37
+Voltaje: 35
+Nota n°: 6
+Voltaje: 56
+Nota n°: 5
+Nota n°: 2
+Voltaje: 60
+Voltaje: 35
+Nota n°: 3
+Voltaje: 42
+Nota n°: 6
+Voltaje: 10
+Nota n°: 6
+Nota n°: 1
+Voltaje: 31

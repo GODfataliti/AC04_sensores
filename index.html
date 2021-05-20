@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Laboratorio 04: Arquitecturas Computacionales</title>
+		<script src = "/socket.io/socket.io.js"></script>
+
+	</head>
+	<body>
+		<body bgcolor="Silver">
+		<body onload="tiempo_real1();">
+		<h3><center>Monitoreo tiempo real del voltaje de una ampolleta y un piano en funcionamiento</center></h3>
+		<h2><center>Laboratorio 4 de arquitectura computacional</center></h2>
+		<h3><center>Autores:</center></h3>
+		<h3 style="align-content: center;"><center>-Martin Escobedo</center></h3>
+		<h3 style="align-content: center;"><center>-Jose Gonzalez</center></h3>
+		<h3 style="align-content: center;"><center>-Francisco Vila</center></h3>
+		<center><table border="3px">
+			<tr>
+				<td id="td_ampolleta">
+					<img id="ampolleta" src="https://user-images.githubusercontent.com/49794011/118745444-32782480-b824-11eb-9b88-7964074f780b.jpg" style="width:250px">
+				</td>
+				<td style='width: 30%;'>
+					<p>
+						<center><h3>Voltaje (V) :</h3></center> <center><input name="sensor1" id="sensor1" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
+						<center><h3>Nota :</h3></center> <center><input name="sensor2" id="sensor2" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
+					</p>
+				</td>
+				<td id="td_teclado">
+					<img id="teclado" src="https://user-images.githubusercontent.com/49794011/118850980-4f9e0900-b89f-11eb-8f44-4193b9713f9a.png" style="width:320px">
+				</td>
+			</tr>
+		</table></center>
+		<script>
+
+			function tiempo_real1(){
+				var socket=io();
+				socket.on('lectura', function(data){
+					console.log(data);
+					document.getElementById("sensor1").value=data;
+					if(data<30){
+						var apagado='APAGADO';
+						document.getElementById("ampolleta").src="https://user-images.githubusercontent.com/49794011/118745444-32782480-b824-11eb-9b88-7964074f780b.jpg";
+						document.getElementById("td_teclado").value=apagado;
+					}else if(data>=30){
+						var encendido='ENCENDIDO';
+						document.getElementById("ampolleta").src="https://user-images.githubusercontent.com/49794011/118745472-415ed700-b824-11eb-80b4-51f9284fc468.jpg"
+
+					}
+			});
+				socket.on('lectura2', function(data){ 
+				console.log(data);
+				document.getElementById("sensor2").value=data;
+				if(data==1){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850413-c2f34b00-b89e-11eb-8c12-2e67f4f30c81.png";
+					document.getElementById("teclado").style.backgroundColor="green";
+				}else if(data==2){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850414-c2f34b00-b89e-11eb-93bb-64bf795f4313.png";
+					document.getElementById("teclado").style.backgroundColor="red";
+				}else if(data==3){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850415-c38be180-b89e-11eb-834b-5edfb7794f73.png";
+					document.getElementById("teclado").style.backgroundColor="gray";
+				}else if(data==4){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850418-c38be180-b89e-11eb-99a8-28f41d728e7d.png";
+					document.getElementById("teclado").style.backgroundColor="blue";
+				}else if(data==5){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850421-c4247800-b89e-11eb-8437-606bf22b03ad.png";
+					document.getElementById("teclado").style.backgroundColor="yellow";
+				}else if(data==6){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850422-c4247800-b89e-11eb-9c71-eecb40bc29b4.png";
+					document.getElementById("teclado").style.backgroundColor="pink";
+				}else if(data==7){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850424-c4bd0e80-b89e-11eb-9e3d-d582e8e5052c.png";
+					document.getElementById("teclado").style.backgroundColor="brown";
+				}else if(data==8){
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850412-c25ab480-b89e-11eb-8667-b6c4a5a0d01d.png";
+					document.getElementById("teclado").style.backgroundColor="black";
+				}else{
+					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850980-4f9e0900-b89f-11eb-8f44-4193b9713f9a.png";
+					document.getElementById("teclado").style.backgroundColor="green";
+				}
+
+				});
+			}
+			</script>
+	</body>
+</html>
