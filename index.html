@@ -20,12 +20,13 @@
 				</td>
 				<td style='width: 30%;'>
 					<p>
-						<center><h3>Voltaje (V) :</h3></center> <center><input name="sensor1" id="sensor1" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
-						<center><h3>Nota :</h3></center> <center><input name="sensor2" id="sensor2" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
+						<center><h3>Voltaje (V) :</h3></center> <center><input placeholder="--" disabled name="sensor1" id="sensor1" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
+						<center><h3>Nota :</h3></center> <center><input placeholder="--" disabled name="sensor2" id="sensor2" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
 					</p>
 				</td>
 				<td id="td_teclado">
 					<img id="teclado" src="https://user-images.githubusercontent.com/49794011/118850980-4f9e0900-b89f-11eb-8f44-4193b9713f9a.png" style="width:320px">
+					<center><input placeholder="--" disabled name="ip_nota" id="ip_nota" style='width:80px; height :40px; font-family:Arial; font-size:15pt'></center>
 				</td>
 			</tr>
 		</table></center>
@@ -50,32 +51,50 @@
 				console.log(data);
 				document.getElementById("sensor2").value=data;
 				if(data==1){
+					let nota = "DO";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850413-c2f34b00-b89e-11eb-8c12-2e67f4f30c81.png";
 					document.getElementById("teclado").style.backgroundColor="green";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==2){
+					let nota = "RE";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850414-c2f34b00-b89e-11eb-93bb-64bf795f4313.png";
 					document.getElementById("teclado").style.backgroundColor="red";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==3){
+					let nota = "MI";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850415-c38be180-b89e-11eb-834b-5edfb7794f73.png";
 					document.getElementById("teclado").style.backgroundColor="gray";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==4){
+					let nota = "FA";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850418-c38be180-b89e-11eb-99a8-28f41d728e7d.png";
 					document.getElementById("teclado").style.backgroundColor="blue";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==5){
+					let nota = "SOL";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850421-c4247800-b89e-11eb-8437-606bf22b03ad.png";
 					document.getElementById("teclado").style.backgroundColor="yellow";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==6){
+					let nota = "LA";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850422-c4247800-b89e-11eb-9c71-eecb40bc29b4.png";
 					document.getElementById("teclado").style.backgroundColor="pink";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==7){
+					let nota = "SI";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850424-c4bd0e80-b89e-11eb-9e3d-d582e8e5052c.png";
 					document.getElementById("teclado").style.backgroundColor="brown";
+					document.getElementById("ip_nota").value=nota;
 				}else if(data==8){
+					let nota = "DO";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850412-c25ab480-b89e-11eb-8667-b6c4a5a0d01d.png";
 					document.getElementById("teclado").style.backgroundColor="black";
+					document.getElementById("ip_nota").value=nota;
 				}else{
+					let nota = "--";
 					document.getElementById("teclado").src="https://user-images.githubusercontent.com/49794011/118850980-4f9e0900-b89f-11eb-8f44-4193b9713f9a.png";
 					document.getElementById("teclado").style.backgroundColor="green";
+					document.getElementById("ip_nota").value=nota;
 				}
 
 				});
